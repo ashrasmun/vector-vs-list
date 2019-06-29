@@ -12,7 +12,7 @@ setlocal
 
   :: In CMake, this is known as CMAKE_BINARY_DIR, but in fact it's
   :: a directory for intermediate files, as far as I understand.
-  set CMAKE_INTERMEDIATE_DIR="../../build/64/cmake"
+  set CMAKE_INTERMEDIATE_DIR="../../build/vector-vs-list/vs/64/cmake"
 
   :: Prepare the build
   if not exist %CMAKE_INTERMEDIATE_DIR%\CMakeCache.txt (
